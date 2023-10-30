@@ -1,0 +1,22 @@
+2023-10-30T13:56:01+00:00 CRITICAL Uncaught ArgumentCountError: 6 arguments are required, 1 given in C:\xampp\htdocs\my project\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php:2691
+Stack trace:
+#0 C:\xampp\htdocs\my project\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php(2691): sprintf('<div class="not...')
+#1 C:\xampp\htdocs\my project\wp-includes\class-wp-hook.php(310): Astra_Sites->admin_welcome_notices('')
+#2 C:\xampp\htdocs\my project\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\my project\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\my project\wp-admin\admin-header.php(303): do_action('admin_notices')
+#5 C:\xampp\htdocs\my project\wp-admin\index.php(137): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\my project\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2691
+
+2023-10-30T14:51:58+00:00 CRITICAL Uncaught ArgumentCountError: 6 arguments are required, 1 given in C:\xampp\htdocs\my project\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php:2691
+Stack trace:
+#0 C:\xampp\htdocs\my project\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php(2691): sprintf('<div class="not...')
+#1 C:\xampp\htdocs\my project\wp-includes\class-wp-hook.php(310): Astra_Sites->admin_welcome_notices('')
+#2 C:\xampp\htdocs\my project\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\my project\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\my project\wp-admin\admin-header.php(303): do_action('admin_notices')
+#5 C:\xampp\htdocs\my project\wp-admin\index.php(137): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\my project\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2691
+
